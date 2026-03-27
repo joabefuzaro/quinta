@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Uso de tabelas</title>
+</head>
+<body>
+    <h1>HTML - Uso de tabelas</h1>
+    <table border="1" cellpadding="0" height="130" width="400" align="center" cellspacing="0">
+        <tr>
+            <th>Título</th>
+            <th>Título</th>
+            <th>Título</th>
+        </tr>
+        <tr>
+            <td align="left">Conteudo</td>
+            <td align="center">Conteudo</td>
+            <td align="right">Conteudo</td>
+        </tr>
+        <tr align="center">
+            <td valign="top">Linha 3</td>
+            <td valign="middle">Linha 3</td>
+            <td valign="bottom">Linha 3</td>
+        </tr>
+    </table>
+    <h2>Mesclando linhas</h2>
+    <table border="1">
+    <tr>
+        <th colspan="3">Células mescladas</th>
+    </tr>
+    <tr>
+        <td>cel 1</td>
+        <td>cel 2</td>
+        <td>cel 3</td>
+    </tr>
+    <tr>
+        <td>cel 1</td>
+        <td>cel 2</td>
+        <td>cel 3</td>
+    </tr>
+    </table>
+    <h2>Mesclando Linhas</h2>
+    <table border="1">
+        <tr>
+            <th rowspan="3">Linhas Mescladas</th>
+            <th>Titulo 2</th>
+            <th>Titulo 3</th>
+        </tr>
+        <tr>
+            <td>Cel 1</td>
+            <td>Cel 2</td>
+        </tr>
+        <tr>
+            <td>Cel 1</td>
+            <td>Cel 2</td>
+        </tr>
+    </table>
+    <h2>Tabelas HTML 5</h2>
+    <table border="1">
+        <thead>
+        <tr bgcolor="red">
+            <td>cel 1</td>
+            <td>cel 2</td>
+            <td>cel 3</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>cel 1</td>
+            <td>cel 2</td>
+            <td>cel 3</td>
+        </tr>
+        <tr>
+            <td>cel 1</td>
+            <td>cel 2</td>
+            <td>cel 3</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr bgcolor="blue">
+                <td>rod 1</td>
+                <td>rod 2</td>
+                <td>rod 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

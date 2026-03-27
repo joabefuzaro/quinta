@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário HTML</h1>
+    <form action="#" method="post" enctype="text/plain">
+        Nome:<input type="text" name="nome" id="nome" size="40"><br><br>
+        Senha:<input type="password" name="senha" id="senha"><br>
+        Sexo:<label for="masculino"><input type="radio" name="sexo" value="M" id="masculino" checked>Masculino</label>
+             <label for="feminino"><input type="radio" name="sexo" value="F" id="feminino">Feminino</label><br><br>
+             Assinale seus esportes Favoritos:<br>
+             <label for="esporte1"><input type="checkbox" id="esporte1" name="esporte1" value="Futebol">Futebol</label>
+             <label for="esporte2"><input type="checkbox" id="esporte2" name="esporte2" value="basquete">Basquete</label>
+             <label for="esporte3"><input type="checkbox" id="esporte3" name="esporte3" value="Voleybol">Voleybol</label>
+             <br><br>
+             Qual Cidade você mora? 
+             <select name="cidade">
+                <optgroup label="Minas Gerais">
+                    <option value="Uberaba">Uberaba</option>
+                    <option value="Uberlândia">Uberlândia</option>    
+                    <option value="Araguari">Araguari</option>
+                </optgroup>
+                <optgroup label="São Paulo">
+                    <option value="Igarapava">Igarapava</option>
+                    <option value="Guara">Guara</option>
+                </optgroup>
+             </select><br>
+        Cor da camisa: <input type="color" name="camisa"><br>
+        Data de Nascimnto:<input type="date" name="nascimento"><br>
+        Quantidade: <input type="number" name="Quantidade" id="quntidade" min="5" max="50" step="5">
+<br><br><br><br><br><br><br><br><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
